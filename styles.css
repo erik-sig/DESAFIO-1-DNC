@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+button {
+  border: 0;
+}
+
+input {
+  border: 0;
+  outline: none;
+}
+
+header {
+  background-color: #303030;
+  padding: 206px 62px 150px 62px;
+ 
+}
+
+header > h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 1rem;
+}
+
+header > span {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+section {
+  background-color: #F9F9F9;
+  display: flex;
+  padding: 87px 62px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-h2-datas {
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.section-span {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+main {
+  display: flex;
+  padding: 4rem 62px;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+main > div > h2 {
+  font-weight: 500px;
+  font-size: 40px;
+  line-height: 20px;
+  margin-bottom: 2rem;
+}
+
+main > div > p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+main > img {
+  border: 30px;
+}
+
+form {
+  background-color: #303030;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+form > h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+form > input {
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+form > button {
+  padding: 1rem 2rem;
+  background-color: #C07212;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  margin-top: 3rem;
+  outline: none;
+  cursor: pointer;
+}
+
+form > button:hover {
+  transition: 150ms;
+  opacity: 0.5;
+}
